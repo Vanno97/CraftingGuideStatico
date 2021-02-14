@@ -1,0 +1,202 @@
+.header {
+	background-color: #23c272;
+	text-align: center;
+	padding: 2%;
+	font-family: Minecraft;
+	font-size: xx-large;
+	font-weight: normal;
+}
+
+/* NAVBAR */
+
+.navbarWrapper {
+	background-color: white;
+	margin: 2%;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+.navbarRow {
+	display: flex;
+	align-content: space-around;
+}
+
+/* ITEM LIST */
+.itemList {
+	text-align: center;
+	margin-left: 4%;
+}
+
+.item {
+	background-color: white;
+	max-width: 23%;
+	margin: 1%;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+.item img {
+	width: 80%;
+}
+
+/* ITEM DETAILS */
+.itemWrapper {
+	padding-bottom: 2%;
+}
+
+.itemDetails {
+	background-color: white;
+	text-align: center;
+	padding: 1%;
+	border-radius: 10px;
+}
+
+.detailsWrapper {
+	padding-top: 4%;
+}
+
+.detailsRow {
+	display: flex;
+	padding-right: 3%;
+	padding-left: 3%;
+}
+
+.colSxOdd {
+	width: 50%;
+	background-color: #e3e3e3;
+}
+
+.colDxOdd {
+	width: 50%;
+}
+
+.colDxEven {
+	width: 50%;
+	background-color: #e3e3e3;
+}
+
+.colSxEven {
+	width: 50%;
+}
+
+.crafting {
+	background-color: white;
+	border-radius: 10px;
+	margin-left: 4%;
+}
+
+/* CRAFTING */
+
+
+/* FURNACE */
+.furnace {
+	background-color: #c6c6c6;
+	margin: 2%;
+	border-radius: 5px;
+	padding: 2%;
+	max-width: 180px;
+	border: outset;
+}
+
+.furnaceTopRow {
+	padding-left: 16%;
+	padding-top: 2%;
+}
+
+.furnaceRow {
+	padding-left: 16%;
+}
+
+/* SMITHING TABLE */
+
+.smithingTable {
+	background-color: #c6c6c6;
+	margin: 2%;
+	border-radius: 5px;
+	padding: 2%;
+	max-width: 280px;
+	border: outset;
+}
+
+.rowSmithingtTableTop {
+	padding-top: 2%;
+	padding-left: 15%;
+}
+
+.rowSmithingtTable {
+	padding-left: 15%;
+}
+
+.frecciaSmithing {
+	margin-right: 5%;
+}
+
+/* CRAFTING TABLE */
+
+.craftingTable {
+	background-color: #c6c6c6;
+	margin: 2%;
+	border-radius: 5px;
+	padding: 2%;
+	max-width: 220px;
+	border: outset;
+}
+
+.craftingTableTopRow {
+	padding-left: 7%;
+	padding-right: 7%;
+	padding-top: 2%;
+}
+
+.craftingTableRow {
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+/* COMUNI */
+.titolo {
+	text-align: center;
+	font-family: Minecraft;
+}
+
+.cellaVuota {
+	width: 30px;
+	height: 30px;
+}
+
+.freccia {
+	margin-right: 13%;
+}
+
+.cella {
+	background-color: #8b8b8b;
+	width: 30px;
+	height: 30px;
+	border: inset;
+	border-color: lightgray;
+}
+
+button {
+	border-radius: 5px;
+	border: none;
+	background-color: white;
+	width: 100%;
+	padding: 1%;
+}
+
+button:hover {
+	background-color: #e3e3e3;
+}
+
+p {
+	margin: 0;
+}
+
+body {
+	background-color: #e3e3e3;
+}
+
+@font-face {
+	font-family: Minecraft;
+	src: url("src/Minecraft.ttf");
+}
